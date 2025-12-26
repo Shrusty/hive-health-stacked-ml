@@ -14,6 +14,9 @@ This project predicts hive health by combining multiple machine learning models 
 ## 🐝 Dataset
 
 - Public dataset sourced from **Kaggle**  
+[Dataset Link
+](https://www.kaggle.com/datasets/jocelyndumlao/predicting-honeybee-health-from-hive-and-weather)
+
 - Includes hive inspections, apiary metadata, and weather observations  
 - Target variable: **Colony Health Status (Healthy / Unhealthy)**  
 
@@ -59,12 +62,12 @@ This project predicts hive health by combining multiple machine learning models 
 
 - Confusion matrix showing true vs predicted labels  
 
-![Confusion Matrix](images\image-1.png)
+![Confusion Matrix](images/image-1.png)
 
 
 - ROC AUC curve to evaluate model discrimination power  
 
-![ROC AUC Curve](images\image.png)
+![ROC AUC Curve](images/image.png)
 
 ---
 
