@@ -62,12 +62,12 @@ This project predicts hive health by combining multiple machine learning models 
 
 - Confusion matrix showing true vs predicted labels  
 
-![Confusion Matrix](images/image-1.png)
+![Confusion Matrix](images/image.png)
 
 
 - ROC AUC curve to evaluate model discrimination power  
 
-![ROC AUC Curve](images/image.png)
+![ROC AUC Curve](images/image-1.png)
 
 ---
 
