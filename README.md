@@ -1,17 +1,17 @@
-# 🐝 Colony Health Assessment – Stacked ML Classifier
+# Colony Health Assessment – Stacked ML Classifier
 
-**Predict honeybee colony health (Healthy 🟢 vs Unhealthy 🔴) using a stacked machine learning pipeline combining Decision Trees, AdaBoost, KNN, and MLP.**
+**Predict honeybee colony health (Healthy vs Unhealthy) using a stacked machine learning pipeline combining Decision Trees, AdaBoost, KNN, and MLP.**
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 Honeybee colonies are vital pollinators but are affected by weather, food, space, and stressors.  
 This project predicts hive health by combining multiple machine learning models in a **stacked ensemble**, leveraging the strengths of diverse classifiers for higher accuracy.
 
 ---
 
-## 🐝 Dataset
+## Dataset
 
 - Public dataset sourced from **Kaggle**  
 [Dataset Link
@@ -22,7 +22,7 @@ This project predicts hive health by combining multiple machine learning models 
 
 ---
 
-## 🧠 Modeling Approach
+## Modeling Approach
 
 - **Stacked ML Pipeline:** Combines multiple base learners for robust predictions  
 - **Data Preprocessing:** Merged datasets, handled missing values, scaled numeric features, encoded categorical features  
@@ -40,7 +40,7 @@ This project predicts hive health by combining multiple machine learning models 
 
 ---
 
-## 📊 Key Metrics
+## Key Metrics
 
 | Metric       | Value  |
 |-------------|--------|
@@ -50,7 +50,7 @@ This project predicts hive health by combining multiple machine learning models 
 
 ---
 
-## 🔑 Key Insights
+## Key Insights
 
 - Hive health is influenced by **internal factors** (colony conditions) and **external factors** (weather, location)  
 - Critical features like **brood, queen, food, and stressors** dominate predictions  
@@ -58,7 +58,7 @@ This project predicts hive health by combining multiple machine learning models 
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 - Confusion matrix showing true vs predicted labels  
 
@@ -71,7 +71,7 @@ This project predicts hive health by combining multiple machine learning models 
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - Python | Pandas | NumPy  
 - scikit-learn | Matplotlib | Seaborn  
